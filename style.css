@@ -1,0 +1,93 @@
+:root {
+    --cor-fundo: #F2F2F2;
+    --cor-um: #E28625;
+    --cor-dois: #006971;
+    --cor-tres: #004140;
+    --cor-texto: #FFFFFF;
+
+    --fonte-um: "Lexend Deca", sans-serif;
+    --fonte-dois: "Big Shoulders Display", sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-um);
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cor-texto);
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: var(--fonte-dois);
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    width: 5.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+a:hover {
+    background-color: transparent;
+    border: 2px solid var(--cor-texto);
+    color: var(--cor-texto);
+}
+
+p {
+    width: 13rem;
+    margin: 1em 0 4em 0;
+}
+
+.lista {
+    display: flex;
+}
+
+.lista__item {
+    border-radius: 8px;
+    padding: 2em;
+}
+
+.item__info {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.sedans {
+    background-color: var(--cor-um);
+}
+
+.suvs {
+    background-color: var(--cor-dois);
+}
+
+.luxury {
+    background-color: var(--cor-tres);
+}
+
+.info-sedans {
+    color: var(--cor-um);
+}
+
+.info-suvs {
+    color: var(--cor-dois);
+}
+
+.info-luxury {
+    color: var(--cor-tres);
+}
