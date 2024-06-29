@@ -99,6 +99,10 @@ p {
 
 @media screen and (max-width: 768px) {
 
+    body{
+        height: auto;
+    }
+
     .lista{
         flex-direction: column;
         padding: 0;
