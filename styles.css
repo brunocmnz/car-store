@@ -100,7 +100,7 @@ p {
 @media screen and (max-width: 768px) {
 
     body{
-        height: max-content;
+        height: fit-content;
     }
 
     .lista{
